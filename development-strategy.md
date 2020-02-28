@@ -12,17 +12,17 @@ Building this site one step at a time
 
 ## 2. Init
 
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * init.js
+> * Contents the render initial state: variables, methods for selecting the id's in HTML tags, and render the initial state of the data object (numbers in this case). 
 
-## 3. User Story: ___
+## 3. User Story: Save button. 
 
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * Writing the initial code: create the HTML code, then create the save functions, store the values, and perform the logic.
+> * save-number.js handler and listener. 
+> * I aad the listeners, and handlers: add the methods for add a new current, find the biggest and the smallest, and save the current.   
 
-## 4. User Story: ___
+## 4. User Story: Reset button. 
 
-> * which user story makes sense to code first?
-> * which files of code do you need to change?
-> * what are you changing in them?
+> * The users will want to start again to write and compare the numbers, from save the numbers and refresh the web page, so they need a reset button for start again.
+> * reset.js handler and listener. 
+> * I add the listeners, and handlers: add the method for reset the values to: the biggest = -infinity, smallest = infinity, current = 0 and all array to empty.
